@@ -6,7 +6,7 @@ use lazy_static::lazy_static;
 use regex::Regex;
 
 /*
-sdoc - Simple Docs Generation for .h Files
+doc-gen - Simple Docs Generation for .h Files
 TODO:
 - HTML Header
 - Change <title>
@@ -18,7 +18,7 @@ fn main() {
     let args: Vec<String> = std::env::args().skip(1).collect();
 
     if args.len() == 0 {
-        println!("Usage: sdoc [FILE]");
+        println!("Usage: doc-gen [FILE]");
         exit(0);
     }
     for arg in args {

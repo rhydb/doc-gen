@@ -1,5 +1,5 @@
 [package]
-name = "sdoc"
+name = "docgen"
 version = "0.1.0"
 authors = ["nijabutter <rhydianbrown554@gmail.com>"]
 edition = "2018"
